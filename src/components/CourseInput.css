@@ -1,0 +1,37 @@
+.course-input {
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+     border: 1px solid #6A42C2;
+     border-radius: 5px;
+     width: 100%;
+     max-width: 300px;
+     background-color: #8B5DFF;
+     box-shadow: 0px 4px 8px #6A42C2; /* Adds a subtle shadow */
+   }
+   
+   
+   .course-input select {
+     margin: 8px 0;
+     padding-left: 0px;
+     font-size: 12px;
+     width: 95%;
+     background-color: #FFF7D1;
+     border: 1px solid #6A42C2;
+     color: #6A42C2;
+   }
+   .course-input input {
+     margin: 8px 0;
+     padding-left: 9px;
+     font-size: 12px;
+     width: 90%;
+     background-color: #FFF7D1;
+     border: 1px solid #6A42C2;
+     color: #6A42C2;
+   }
+   
+   .course-input label {
+     font-weight: bold;
+     margin-bottom: 5px;
+   }
+   

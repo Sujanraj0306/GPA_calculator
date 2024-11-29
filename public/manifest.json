@@ -1,0 +1,29 @@
+{
+  "short_name": "Sujan GPA",
+  "name": "Sujan GPA - GPA Calculator for CIT College and Anna University MSc",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#007bff",
+  "background_color": "#ffffff",
+  "description": "Sujan GPA is a GPA calculator designed for CIT College and Anna University MSc programs. Quickly calculate your GPA with this easy-to-use app!",
+  "lang": "en",
+  "categories": ["education", "calculator", "tools"]
+}
