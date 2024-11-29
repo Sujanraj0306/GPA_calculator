@@ -1,3 +1,3 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://6749883aa6b5e13c7222b7c9--sujangpa.netlify.app/sitemap.xml
