@@ -1,17 +1,18 @@
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh; /* Ensure it covers the full height of the screen */
   padding: 20px;
-  margin:0 ;
-  color:#FFF7D1;
-  background-color:#563A9C ;
+  margin: 0;
+  color: #FFF7D1;
+  background-color: #563A9C;
   font-family: 'Poppins', sans-serif;
 }
 
 .input-section {
   margin-bottom: 20px;
 }
+
 .input-section input {
   background-color: #FFF7D1;
   border: 1px solid #6A42C2;
@@ -30,7 +31,7 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  color:#563A9C;
+  color: #563A9C;
   background-color: #FFF7D1;
 }
 
@@ -65,6 +66,7 @@ footer {
 
 @media (max-width: 480px) {
   .courses-container {
-    grid-template-columns: repeat(1, 1fr); /* 1 per row for very small screens */
+    grid-template-columns: repeat(1, 1fr);
+     /* 1 per row for very small screens */
   }
 }
