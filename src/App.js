@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import CourseInput from './components/CourseInput';
 import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 const AdComponent = ({ slot }) => {
-  const ref = React.useRef();
+  const ref = useRef();
 
   useEffect(() => {
     if (ref.current && window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
