@@ -70,3 +70,28 @@ footer {
      /* 1 per row for very small screens */
   }
 }
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-radius: 20px;
+  margin-top:60vh;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
